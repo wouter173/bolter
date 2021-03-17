@@ -1,0 +1,48 @@
+#ChatBox {
+	position: relative;
+	display: grid;
+
+	grid-template-rows: 1fr 52px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	background-color: var(--secondairy);
+
+	.messages {
+		height: calc(100vh - 52px);
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+	.inputBox {
+		display: flex;
+		height: 30px;
+
+		margin-top: 5px;
+		background-color: var(--primary);
+
+		border: none;
+		border-radius: 16pt;
+
+		.logo {
+			height: 16px;
+			margin-top: 7px;
+			margin-left: 10px;
+			margin-right: 5px;
+		}
+
+		input {
+			width: 100%;
+
+			padding-right: 10px;
+
+			background-color: transparent;
+			border: none;
+
+			&:active, &:focus {
+				outline: none;
+			}
+		}
+	}
+}

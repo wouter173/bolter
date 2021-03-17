@@ -1,0 +1,8 @@
+article .text {
+	display: inline-block;
+	width: calc(100% - 50px);
+
+	margin-left: 45px;
+
+	overflow-wrap: break-word;
+}

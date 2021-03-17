@@ -1,0 +1,25 @@
+:root {
+	--primary: #1b1b1b;
+	--secondairy: #202328;
+	--red: #E15554;
+	--green: #98971a;
+	--color: #FFFFFF;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+	color: var(--color);
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 10pt;
+
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	overflow: hidden;
+}
